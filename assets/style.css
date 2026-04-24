@@ -1,4 +1,4 @@
-/* ====================== RESET & BASE ====================== */
+
 * {
     margin: 0;
     padding: 0;
@@ -13,7 +13,6 @@ body {
     scroll-behavior: smooth;
 }
 
-/* ====================== NAVBAR ====================== */
 nav {
     position: fixed;
     top: 0;
@@ -56,7 +55,6 @@ nav {
     text-shadow: 0 0 10px rgba(0, 212, 255, 0.5);
 }
 
-/* ====================== HERO SECTION ====================== */
 #home {
     min-height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.85)),
@@ -121,7 +119,7 @@ nav {
     box-shadow: 0 0 60px rgba(0, 212, 255, 0.9);
 }
 
-/* ====================== SECTIONS ====================== */
+
 section {
     padding: 100px 5%;
 }
@@ -146,7 +144,7 @@ h2::after {
     border-radius: 2px;
 }
 
-/* ====================== ABOUT ====================== */
+
 #about {
     background: #111;
 }
@@ -201,7 +199,6 @@ h2::after {
 .css  { width: 85%; }
 .js   { width: 60%; }
 
-/* ====================== PROJECTS ====================== */
 #project {
     background: #0a0a0a;
 }
@@ -259,7 +256,6 @@ h2::after {
     color: black;
 }
 
-/* ====================== CONTACT ====================== */
 #contact {
     background: linear-gradient(135deg, #111, #1a1a1a);
     text-align: center;
@@ -299,7 +295,7 @@ h2::after {
     transform: translateY(-8px) scale(1.1);
 }
 
-/* ====================== RESPONSIVE DESIGN ====================== */
+
 @media (max-width: 992px) {
     .hero-content h1 {
         font-size: 3.5rem;
